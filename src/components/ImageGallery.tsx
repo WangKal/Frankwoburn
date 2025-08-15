@@ -1,0 +1,134 @@
+import { useState } from "react";
+import { ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import heroImage from "@/assets/Pic.jpg";
+import plotImage from "@/assets/Pic4.jpg";
+import investmentImage from "@/assets/Plan1Acre.png";
+
+const ImageGallery = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  
+  // Placeholder for the 17 images mentioned by user - using our generated images as examples
+  const images = [
+    { src: heroImage, title: "Aerial View of Beachfront Property", description: "Stunning 18-acre beachfront land with crystal clear waters" },
+    { src: plotImage, title: "Plot Subdivision Layout", description: "Well-planned 72-plot subdivision with organized access roads" },
+    { src: investmentImage, title: "Investment Opportunity", description: "Prime coastal investment with excellent growth potential" },
+    // Additional placeholder images would be added here for the user's 17 images
+    { src: heroImage, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
+    { src: plotImage, title: "Development Infrastructure", description: "5m wide driveways with 2m pedestrian sidewalks" },
+    { src: investmentImage, title: "Sunset Views", description: "Breathtaking sunset views from your future property" },
+  ];
+
+  const nextImage = () => {
+    setCurrentImage((prev) => (prev + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  return (
+    <section id="gallery" className="py-24 bg-background">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16 animate-fade-in-up">
+          <h2 className="text-5xl font-bold mb-6 text-gradient-ocean">
+            Property Gallery
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Explore stunning views of this exceptional beachfront property through our comprehensive image gallery
+          </p>
+        </div>
+
+        {/* Main Gallery Viewer */}
+        <div className="relative max-w-6xl mx-auto mb-12">
+          <div className="relative h-96 md:h-[600px] overflow-hidden rounded-2xl shadow-luxury">
+            <img
+              src={images[currentImage].src}
+              alt={images[currentImage].title}
+              className="w-full h-full object-cover transition-all duration-500"
+            />
+            
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+            
+            {/* Image Info */}
+            <div className="absolute bottom-6 left-6 right-6 text-white">
+              <h3 className="text-2xl font-bold mb-2">{images[currentImage].title}</h3>
+              <p className="text-white/80 text-lg">{images[currentImage].description}</p>
+            </div>
+
+            {/* Navigation Buttons */}
+            <Button
+              variant="outline"
+              size="icon"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 border-white/30 hover:bg-white/30 backdrop-blur-sm"
+              onClick={prevImage}
+            >
+              <ChevronLeft className="w-5 h-5 text-white" />
+            </Button>
+            
+            <Button
+              variant="outline"
+              size="icon"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 border-white/30 hover:bg-white/30 backdrop-blur-sm"
+              onClick={nextImage}
+            >
+              <ChevronRight className="w-5 h-5 text-white" />
+            </Button>
+
+            {/* Fullscreen Button */}
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="icon"
+                  className="absolute top-4 right-4 bg-white/20 border-white/30 hover:bg-white/30 backdrop-blur-sm"
+                >
+                  <Maximize2 className="w-5 h-5 text-white" />
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="max-w-7xl w-full h-full max-h-[90vh] p-0">
+                <img
+                  src={images[currentImage].src}
+                  alt={images[currentImage].title}
+                  className="w-full h-full object-contain"
+                />
+              </DialogContent>
+            </Dialog>
+          </div>
+        </div>
+
+        {/* Thumbnail Navigation */}
+        <div className="flex gap-4 overflow-x-auto pb-4 justify-center">
+          {images.map((image, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentImage(index)}
+              className={`flex-shrink-0 w-24 h-24 rounded-lg overflow-hidden transition-all duration-300 ${
+                currentImage === index 
+                  ? 'ring-4 ring-primary shadow-ocean scale-110' 
+                  : 'opacity-70 hover:opacity-100 hover:scale-105'
+              }`}
+            >
+              <img
+                src={image.src}
+                alt={image.title}
+                className="w-full h-full object-cover"
+              />
+            </button>
+          ))}
+        </div>
+
+        {/* Image Counter */}
+        <div className="text-center mt-8">
+          <span className="text-muted-foreground text-lg">
+            {currentImage + 1} of {images.length}
+          </span>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ImageGallery;
