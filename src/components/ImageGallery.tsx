@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import heroImage from "@/assets/Pic.jpg";
+import heroImage from "@/assets/Pic.JPG";
 import plotImage from "@/assets/Pic4.jpg";
 import investmentImage from "@/assets/Plan1Acre.png";
 
