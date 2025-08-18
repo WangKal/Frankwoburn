@@ -6,6 +6,9 @@ import heroImage from "@/assets/im1.jpeg";
 import heroImage1 from "@/assets/im3.jpeg";
 import heroImage2 from "@/assets/im2.jpeg";
 import heroImage3 from "@/assets/Fp12.png";
+import heroImage4 from "@/assets/im4.jpeg";
+import heroImage5 from "@/assets/im5.jpeg";
+import heroImage6 from "@/assets/im6.jpeg";
 import plotImage from "@/assets/FS.JPG";
 import plotImage1 from "@/assets/FS3.JPG";
 import plotImage2 from "@/assets/G2.png";
@@ -21,7 +24,11 @@ const ImageGallery = () => {
     { src: heroImage1, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
     { src: heroImage2, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
     { src: heroImage3, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
+    { src: heroImage4, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
+    { src: heroImage5, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
+    { src: heroImage6, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
     
+
     { src: plotImage, title: "Plot Subdivision Layout", description: "Well-planned 72-plot subdivision with organized access roads" },
     { src: plotImage1, title: "Development Infrastructure", description: "5m wide driveways with 2m pedestrian sidewalks" },
     { src: plotImage2, title: "Development Infrastructure", description: "5m wide driveways with 2m pedestrian sidewalks" },
