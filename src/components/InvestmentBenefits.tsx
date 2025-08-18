@@ -38,9 +38,9 @@ const InvestmentBenefits = () => {
 
   const keyStats = [
     { label: "Total Area", value: "18 Acres", description: "Prime beachfront land" },
-    { label: "Plot Size", value: "817 m²", description: "≈0.202 acres each" },
-    { label: "Price From", value: "Ksh. 4M", description: "Per acre" },
-    { label: "Total Plots", value: "72", description: "Premium residential plots" }
+    { label: "Quarter Acre", value: "849 m²", description: "0.21 acres each" },
+    { label: "Price From", value: "Ksh. 4M", description: "Quarter acre plots" },
+    { label: "Premium Plot", value: "Ksh. 60M", description: "1-acre oceanfront" }
   ];
 
   return (
@@ -124,15 +124,15 @@ const InvestmentBenefits = () => {
             <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
               <div className="text-center">
                 <div className="text-2xl font-bold text-accent mb-1">4M</div>
-                <div className="text-sm">Starting Price (Ksh per acre)</div>
+                <div className="text-sm">Quarter Acre (Ksh)</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent mb-1">2km</div>
-                <div className="text-sm">Continuous Beach Frontage</div>
+                <div className="text-2xl font-bold text-accent mb-1">60M</div>
+                <div className="text-sm">Premium 1-Acre (Ksh)</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent mb-1">72</div>
-                <div className="text-sm">Premium Plots Available</div>
+                <div className="text-2xl font-bold text-accent mb-1">68</div>
+                <div className="text-sm">Quarter-Acre Plots</div>
               </div>
             </div>
           </div>

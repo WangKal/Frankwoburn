@@ -73,7 +73,7 @@ const Navigation = () => {
                   <Phone className="h-4 w-4" />
                   <span>Call Now</span>
                 </a>
-                <a href="mailto:info@samwokur.com" className={`flex items-center space-x-1 text-sm ${
+                <a href="mailto:Idimemalindi@gmail.com" className={`flex items-center space-x-1 text-sm ${
                   isScrolled ? 'text-foreground' : 'text-white'
                 }`}>
                   <Mail className="h-4 w-4" />

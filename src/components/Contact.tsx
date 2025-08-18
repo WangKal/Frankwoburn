@@ -73,7 +73,7 @@ const Contact = () => {
       title: "WhatsApp",
       description: "Quick responses and property updates",
       value: "+254 742 292 727",
-      action: "https://wa.me/254742292727?text=Hi, I'm interested in the Samwokur Plots beachfront property",
+      action: "https://wa.me/254742292727?text=Hi, I'm interested in the Frankwoburn Plots beachfront property",
       buttonText: "Chat on WhatsApp",
       bgColor: "bg-gradient-sunset"
     },
@@ -81,8 +81,8 @@ const Contact = () => {
       icon: <Mail className="w-8 h-8 text-white" />,
       title: "Email",
       description: "Detailed information and documentation",
-      value: "info@samwokurplots.com",
-      action: "mailto:info@samwokurplots.com?subject=Inquiry about Samwokur Plots",
+      value: "Idimemalindi@gmail.com",
+      action: "mailto:Idimemalindi@gmail.com?subject=Inquiry about Frankwoburn Plots",
       buttonText: "Send Email",
       bgColor: "bg-gradient-ocean"
     }
@@ -153,7 +153,7 @@ const Contact = () => {
                       Property Location
                     </h4>
                     <p className="text-muted-foreground">
-                      Frankwoburn Plots, SandPiper, Malindi<br />
+                      Frankwoburn Plots, Sand Pipper, Malindi<br />
                       Opposite Sand Pipper School<br />
                       Coast Province, Kenya
                     </p>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
-import heroImage from "@/assets/Pic9.png";
+import heroImage from "@/assets/Fp12.png";
 import { MapPin, Star, TrendingUp } from "lucide-react";
 
 const Hero = () => {
@@ -88,7 +88,7 @@ const Hero = () => {
             Exclusive Ocean Paradise
           </p>
           <p className="text-xl md:text-2xl mb-8 text-accent font-semibold">
-            Sandr, Malindi • From Ksh. 4M per acre
+            Sand Pipper, Malindi • From Ksh. 4M per acre
           </p>
         </div>
         
@@ -97,8 +97,7 @@ const Hero = () => {
           isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <p className="text-lg md:text-xl mb-12 text-white/80 max-w-3xl mx-auto leading-relaxed">
-            A rare coastal investment opportunity fronting the breathtaking Indian Ocean. 
-            Prime beachfront land in one of Malindi's most sought-after locations.
+            A rare coastal investment opportunity fronting the breathtaking Indian Ocean — prime gated community subdivided plots directly touching the sea in one of Malindi’s most sought-after locations.
           </p>
         </div>
         
@@ -130,16 +129,16 @@ const Hero = () => {
           isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
-            <h3 className="text-2xl font-bold text-white mb-2">72 Plots</h3>
-            <p className="text-white/80 text-sm">Premium subdivision ready for development</p>
+            <h3 className="text-2xl font-bold text-white mb-2">68+1 Plots</h3>
+            <p className="text-white/80 text-sm">Premium acre + quarter-acre plots</p>
           </div>
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
-            <h3 className="text-2xl font-bold text-white mb-2">2km Beach</h3>
-            <p className="text-white/80 text-sm">Uninterrupted Indian Ocean frontage</p>
+            <h3 className="text-2xl font-bold text-white mb-2">From Ksh. 4M</h3>
+            <p className="text-white/80 text-sm">Quarter-acre beachfront plots</p>
           </div>
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
-            <h3 className="text-2xl font-bold text-white mb-2">Title Deeds</h3>
-            <p className="text-white/80 text-sm">Ready for immediate ownership transfer</p>
+            <h3 className="text-2xl font-bold text-white mb-2">Ksh. 60M</h3>
+            <p className="text-white/80 text-sm">1-acre premium oceanfront</p>
           </div>
         </div>
       </div>

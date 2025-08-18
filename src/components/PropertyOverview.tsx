@@ -20,8 +20,8 @@ const PropertyOverview = () => {
     },
     {
       icon: <Building className="w-8 h-8 text-accent" />,
-      title: "72 Premium Plots",
-      description: "817 m² each with 27.78m frontage"
+      title: "68 Quarter-Acre + 1 Acre",
+      description: "Premium 1-acre plot + 68 quarter-acre plots"
     }
   ];
 

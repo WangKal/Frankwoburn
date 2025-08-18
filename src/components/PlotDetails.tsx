@@ -8,9 +8,9 @@ const PlotDetails = () => {
       icon: <Ruler className="w-8 h-8 text-primary" />,
       title: "Plot Dimensions",
       specs: [
-        { label: "Size per plot", value: "817 m² (≈0.202 acres)" },
-        { label: "Frontage", value: "27.78 m" },
-        { label: "Depth", value: "29.42 m" }
+        { label: "Quarter acre", value: "849 m² (0.21 acres)" },
+        { label: "1-acre plot", value: "3,397 m² (0.84 acres)" },
+        { label: "Quarter frontage", value: "23.20 m × 36.60 m" }
       ]
     },
     {
@@ -35,9 +35,9 @@ const PlotDetails = () => {
       icon: <FileText className="w-8 h-8" />,
       title: "Ownership Benefits",
       specs: [
-        { label: "Title deeds", value: "Available for every plot" },
-        { label: "Pricing", value: "Competitive investment rates" },
-        { label: "Appreciation", value: "High capital growth potential" }
+        { label: "Title deeds", value: "Processed within 30 days" },
+        { label: "Quarter acre", value: "From Ksh. 4M" },
+        { label: "1-acre premium", value: "Ksh. 60M oceanfront" }
       ]
     }
   ];
@@ -47,10 +47,10 @@ const PlotDetails = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in-up">
           <h2 className="text-4xl font-bold mb-4 text-gradient-ocean">
-            Prime 72-Plot Subdivision
+            Prime 68-Plot Subdivision + 1 Acre Premium
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Well-planned 18-acre subdivision along 2km stretch, offering 72 premium residential plots.
+            Well-planned 18-acre development: 1 premium acre plot + 68 quarter-acre plots in a gated community.
           </p>
         </div>
 
@@ -79,16 +79,16 @@ const PlotDetails = () => {
             
             <div className="space-y-4">
               <div className="bg-gradient-ocean text-white p-4 rounded-xl">
-                <h4 className="text-lg font-bold mb-2">Perfect Plot Size</h4>
+                <h4 className="text-lg font-bold mb-2">Two Investment Options</h4>
                 <p className="text-sm">
-                  817 m² plots with 27.78m frontage - ideal for family homes with garden and parking.
+                  1-acre premium oceanfront plot (Ksh. 60M) or quarter-acre plots (from Ksh. 4M).
                 </p>
               </div>
               
               <div className="bg-gradient-sunset text-white p-4 rounded-xl">
-                <h4 className="text-lg font-bold mb-2">Premium Infrastructure</h4>
+                <h4 className="text-lg font-bold mb-2">Gated Community</h4>
                 <p className="text-sm">
-                  5m driveways with 2m pedestrian sidewalks for safe, convenient access.
+                  Organized layout with 5m driveways, 2m pedestrian sidewalks, and premium infrastructure.
                 </p>
               </div>
             </div>
@@ -147,7 +147,7 @@ const PlotDetails = () => {
                 <div className="text-sm font-semibold text-foreground">Beach Access</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent mb-1">72</div>
+                <div className="text-2xl font-bold text-accent mb-1">68+1</div>
                 <div className="text-sm font-semibold text-foreground">Total Plots</div>
               </div>
             </div>

@@ -2,9 +2,15 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import heroImage from "@/assets/Pic.JPG";
-import plotImage from "@/assets/Pic4.jpg";
-import investmentImage from "@/assets/Plan1Acre.png";
+import heroImage from "@/assets/im1.jpeg";
+import heroImage1 from "@/assets/im3.jpeg";
+import heroImage2 from "@/assets/im2.jpeg";
+import heroImage3 from "@/assets/Fp12.png";
+import plotImage from "@/assets/FS.JPG";
+import plotImage1 from "@/assets/FS3.JPG";
+import plotImage2 from "@/assets/G2.png";
+import investmentImage from "@/assets/FS2.JPG";
+import investmentImage1 from "@/assets/G1.png";
 
 const ImageGallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -12,12 +18,18 @@ const ImageGallery = () => {
   // Placeholder for the 17 images mentioned by user - using our generated images as examples
   const images = [
     { src: heroImage, title: "Aerial View of Beachfront Property", description: "Stunning 18-acre beachfront land with crystal clear waters" },
+    { src: heroImage1, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
+    { src: heroImage2, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
+    { src: heroImage3, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
+    
     { src: plotImage, title: "Plot Subdivision Layout", description: "Well-planned 72-plot subdivision with organized access roads" },
+    { src: plotImage1, title: "Development Infrastructure", description: "5m wide driveways with 2m pedestrian sidewalks" },
+    { src: plotImage2, title: "Development Infrastructure", description: "5m wide driveways with 2m pedestrian sidewalks" },
+    
     { src: investmentImage, title: "Investment Opportunity", description: "Prime coastal investment with excellent growth potential" },
-    // Additional placeholder images would be added here for the user's 17 images
-    { src: heroImage, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
-    { src: plotImage, title: "Development Infrastructure", description: "5m wide driveways with 2m pedestrian sidewalks" },
-    { src: investmentImage, title: "Sunset Views", description: "Breathtaking sunset views from your future property" },
+    { src: investmentImage1, title: "Sunset Views", description: "Breathtaking sunset views from your future property" },
+    
+
   ];
 
   const nextImage = () => {
