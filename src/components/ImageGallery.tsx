@@ -7,14 +7,13 @@ import heroImage1 from "@/assets/M1.JPG";
 import heroImage3 from "@/assets/P2.JPG";
 import heroImage4 from "@/assets/P3.JPG";
 import heroImage5 from "@/assets/P4.JPG";
-import heroImage6 from "@/assets/P5.JPG";
-import plotImage from "@/assets/P6.JPG";
-import plotImage1 from "@/assets/P7.JPG";
-import plotImage2 from "@/assets/P8.JPG";
-import investmentImage from "@/assets/P9.JPG";
-import investmentImage1 from "@/assets/P10.PNG";
-import investmentImage2 from "@/assets/P11.JPG";
-import investmentImage3 from "@/assets/P12.JPG";
+import heroImage6 from "@/assets/P5.jpg";
+import plotImage from "@/assets/P6.jpg";
+import plotImage1 from "@/assets/P7.jpg";
+import plotImage2 from "@/assets/P8.jpg";
+import investmentImage from "@/assets/P9.jpg";
+import investmentImage1 from "@/assets/P10.png";
+import investmentImage3 from "@/assets/P12.png";
 const ImageGallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   
@@ -34,6 +33,7 @@ const ImageGallery = () => {
     
     { src: investmentImage, title: "Investment Opportunity", description: "Prime coastal investment with excellent growth potential" },
     { src: investmentImage1, title: "Sunset Views", description: "Breathtaking sunset views from your future property" },
+    { src: investmentImage3, title: "Sunset Views", description: "Breathtaking sunset views from your future property" },
     
 
   ];
