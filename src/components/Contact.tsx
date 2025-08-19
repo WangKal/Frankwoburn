@@ -73,7 +73,7 @@ const Contact = () => {
       title: "WhatsApp",
       description: "Quick responses and property updates",
       value: "+254 742 292 727",
-      action: "https://wa.me/254742292727?text=Hi, I'm interested in the Frankwoburn Plots beachfront property",
+      action: "https://wa.me/254742292727?text=Hi, I'm interested in the Frankburn Plots beachfront property",
       buttonText: "Chat on WhatsApp",
       bgColor: "bg-gradient-sunset"
     },
@@ -82,7 +82,7 @@ const Contact = () => {
       title: "Email",
       description: "Detailed information and documentation",
       value: "Idimemalindi@gmail.com",
-      action: "mailto:Idimemalindi@gmail.com?subject=Inquiry about Frankwoburn Plots",
+      action: "mailto:Idimemalindi@gmail.com?subject=Inquiry about Frankburn Plots",
       buttonText: "Send Email",
       bgColor: "bg-gradient-ocean"
     }
@@ -153,8 +153,8 @@ const Contact = () => {
                       Property Location
                     </h4>
                     <p className="text-muted-foreground">
-                      Frankwoburn Plots, Sand Pipper, Malindi<br />
-                      Opposite Sand Pipper School<br />
+                      Frankburn Plots, Sand Pipper , Malindi<br />
+                      Opposite Sand Pipper International School<br />
                       Coast Province, Kenya
                     </p>
                   </div>
@@ -232,7 +232,7 @@ const Contact = () => {
                       value={formData.message}
                       onChange={handleInputChange}
                       className="min-h-32 resize-none"
-                      placeholder="I'm interested in the Frankwoburn Plots beachfront property. Please provide more details about..."
+                      placeholder="I'm interested in the Frankburn Plots beachfront property. Please provide more details about..."
                     />
                   </div>
                   

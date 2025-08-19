@@ -80,15 +80,15 @@ const Hero = () => {
           isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
         }`}>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-white leading-tight">
-            <span className="text-gradient-ocean animate-pulse">Frankwoburn</span>
+            <span className="text-gradient-ocean animate-pulse">Frankburn</span>
             <br />
-            <span className="text-gradient-sunset">Beachfront Plots</span>
+            <span className="text-gradient-sunset">Beach Front Plots</span>
           </h1>
           <p className="text-2xl md:text-3xl lg:text-4xl mb-4 text-white/90 font-light">
             Exclusive Ocean Paradise
           </p>
           <p className="text-xl md:text-2xl mb-8 text-accent font-semibold">
-            Sand Pipper, Malindi • From Ksh. 4M per acre
+            Sand Pipper International School, Malindi • From Ksh. 4M per acre
           </p>
         </div>
         

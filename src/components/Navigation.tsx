@@ -45,7 +45,7 @@ const Navigation = () => {
               <span className={`text-xl font-bold ${
                 isScrolled ? 'text-primary' : 'text-white'
               }`}>
-                Frankwoburn Plots
+                Frankburn Plots
               </span>
             </div>
 

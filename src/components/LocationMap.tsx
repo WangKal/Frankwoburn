@@ -11,7 +11,7 @@ const LocationMap = () => {
   const nearbyPlaces = [
     {
       icon: <GraduationCap className="w-6 h-6 text-primary" />,
-      name: "Sand Pipper School",
+      name: "Sand Pipper International School",
       position: "Directly Opposite",
       distance: "0km"
     },
@@ -38,7 +38,7 @@ const LocationMap = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Perfectly positioned in one of Malindi's most sought-after coastal zones, 
-            surrounded by luxury resorts and premium amenities.
+            surrounded by luxury resorts and premium amenities.This enviable location places you within walking distance to Naivas Suppermarket, Malindi complex (that host KPLC, KRA and others), Banks (KCB, NCBA, Equity Bank, and many other banks,), Police Station, luxury resorts, white sandy beaches, and the vibrant Malindi lifestyle
           </p>
         </div>
 

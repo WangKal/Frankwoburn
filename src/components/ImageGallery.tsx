@@ -2,19 +2,19 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import heroImage from "@/assets/im1.jpeg";
-import heroImage1 from "@/assets/im3.jpeg";
-import heroImage2 from "@/assets/im2.jpeg";
-import heroImage3 from "@/assets/Fp12.png";
-import heroImage4 from "@/assets/im4.jpeg";
-import heroImage5 from "@/assets/im5.jpeg";
-import heroImage6 from "@/assets/im6.jpeg";
-import plotImage from "@/assets/FS.JPG";
-import plotImage1 from "@/assets/FS3.JPG";
-import plotImage2 from "@/assets/G2.png";
-import investmentImage from "@/assets/FS2.JPG";
-import investmentImage1 from "@/assets/G1.png";
-
+import heroImage from "@/assets/M.JPG";
+import heroImage1 from "@/assets/M1.JPG";
+import heroImage3 from "@/assets/P2.JPG";
+import heroImage4 from "@/assets/P3.JPG";
+import heroImage5 from "@/assets/P4.JPG";
+import heroImage6 from "@/assets/P5.JPG";
+import plotImage from "@/assets/P6.JPG";
+import plotImage1 from "@/assets/P7.JPG";
+import plotImage2 from "@/assets/P8.JPG";
+import investmentImage from "@/assets/P9.JPG";
+import investmentImage1 from "@/assets/P10.PNG";
+import investmentImage2 from "@/assets/P11.JPG";
+import investmentImage3 from "@/assets/P12.JPG";
 const ImageGallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   
@@ -22,7 +22,6 @@ const ImageGallery = () => {
   const images = [
     { src: heroImage, title: "Aerial View of Beachfront Property", description: "Stunning 18-acre beachfront land with crystal clear waters" },
     { src: heroImage1, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
-    { src: heroImage2, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
     { src: heroImage3, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
     { src: heroImage4, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },
     { src: heroImage5, title: "Ocean Frontage", description: "Direct access to pristine Indian Ocean waters" },

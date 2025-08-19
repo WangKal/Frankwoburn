@@ -11,7 +11,7 @@ const PropertyOverview = () => {
     {
       icon: <MapPin className="w-8 h-8 text-primary" />,
       title: "Prime Location",
-      description: "Opposite Sand Pipper School, near luxury resorts"
+      description: "Opposite Sand Pipper International School, near luxury resorts"
     },
     {
       icon: <TreePine className="w-8 h-8 text-accent" />,
